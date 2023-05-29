@@ -1,0 +1,53 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="psutil" />
+            <item index="1" class="java.lang.String" itemvalue="cffi" />
+            <item index="2" class="java.lang.String" itemvalue="confluent-kafka" />
+            <item index="3" class="java.lang.String" itemvalue="PyJWT" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="dict.__getitem__" />
+          <option value="object.bootstrapServers" />
+          <option value="object.groupId" />
+          <option value="object.enableAutoCommit" />
+          <option value="object.autoOffsetReset" />
+          <option value="object.sessionTimeoutMs" />
+          <option value="object.heartbeatIntervalMs" />
+          <option value="object.securityProtocol" />
+          <option value="object.sslCaLocation" />
+          <option value="object.consumerTopics" />
+          <option value="object.pollInterval" />
+          <option value="object.process_payment" />
+          <option value="object.process_notification" />
+          <option value="object.bat" />
+          <option value="object.bowl" />
+          <option value="object.field" />
+          <option value="object.keep_wicket" />
+          <option value="object.next" />
+          <option value="object.data" />
+          <option value="object.employee_id" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
